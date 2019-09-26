@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>-->
+		<title>登陆</title>
+		<link rel="stylesheet" type="text/css" href="../css/shutter.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/denglu.css"/>
+		<style type="text/css">
+			
+			
+		</style>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+//				$(".seach").click(function(){
+//					
+//					$("input[name='seach']").css("display","block")
+//				})
+
+//				$(".shouji").hover(function(){
+//					$(".shouji1").css("display","block")
+//				},function(){
+//					$(".shouji1").css("display","none")
+//				})
+
+			    var mima=/^[a-z0-9A-Z_~!@#$^&*,.]{8,32}$/;
+			    var yonhu=/^[a-zA-Z][a-zA-Z0-9_]*$/;
+			    
+			    $("input[type='text']").focus(function(){
+			    	$(this).prop("placeholder"," ")
+			    })
+			    
+			    $("input[type='text']").blur(function(){
+			    	var a=$(this).val();
+			    	if(yonhu.test(a)){
+			    		$(this).prop("placeholder"," ")
+			    	}else{
+//			    		$("#denglu-show").html("你输入的用户名有误！")
+			    	}
+			    })
+			    
+			    
+			    
+			    $("input[type='password']").focus(function(){
+			    	$(this).prop("placeholder"," ")
+			    })
+			    
+			    $("input[type='password']").blur(function(){
+			    	var a=$(this).val();
+			    	if(mima.test(a)){
+			    		$("#denglu-show").html(" ")
+			    	}else{
+//			    		$("#denglu-show").html("你输入的密码有误有误！")
+			    	}
+			    })
+			    
+			    
+			    $("input[type='button']").click(function(){
+			    	var d=$("input[type='text']").val()
+			    	var e=$("input[type='password']").val()
+			    	
+			    	if($.isEmptyObject(d)&&$.isEmptyObject(e)){
+			    		$("#denglu-show").html("账号密码不能为空！")
+			    	}else{
+			    		$(location).attr("href","index.html")
+			    	}
+			    	
+			    })
+			    
+			    alert
+			    
+			    console.log($("input[type='text']").val())
+			    
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="header1">
+				<div class="header">
+					
+						<a href="../index.html"><img src="../img/logo.png"/></a>
+						
+					
+							
+							
+				   </div>
+				</div>
+			</div>
+				
+			
+			
+			
+			
+			
+			
+		<div id="login-main">
+			
+		
+		
+			<div id="denglu-denglu">
+				<img src="../img/login1.webp"/>
+				
+				
+			</div>
+				
+			<form action="" method="post">
+				
+
+			<div id="login">
+				<p style="text-align: center;margin-top:50px ;font-size: 30px;color: #5A5959;">使用合作号登陆</p>
+				<p style="text-align: center;"><a href=""><img src="../img/QQ.png"/></a>&nbsp;&nbsp;<a href=""><img src="../img/微信1.png"/></a></p>
+				<hr width="300px" color="gainsboro"/ style="background-color: darkgray;margin-left:31px ;">
+				<p style="margin-left:40px ;margin-top: 20px;font-size: 20px;color: #969896;">账号密码登陆</p>
+				<p style="margin-left: 40px;"><input type="text" name="" id="" value="" placeholder="用户名首位必须为字母" class="login-input"  /></p>
+				<p style="margin-left: 40px;"><input type="password" name="" id="" value="" placeholder="密码最少8位" class="login-input" /></p>
+				<input type="submit" name="" id="" value="登陆" style="height: 40px;width: 290px;background-color: #0093D5;border: 0;margin-left: 40px;color: #333333;"/>
+				<br />
+				<br />
+				<p class="login-nav"><a href="">短信登陆</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="register.html">注册</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="findPassword.html">找回密码</a>
+				</p>
+				
+				<div id="denglu-show" style="font-size: 0.89rem;color: #fcab2b;">
+					
+				</div>
+			</div>
+			
+			</form>
+	
+		</div>
+					
+				
+					
+					
+					
+		
+	
+		
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			<div id="list7">
+				<div class="list7">
+					<ul>
+						<li><a href="">商城入驻</a></li>
+						<li><a href="">服务条款</a></li>
+						<li><a href="">隐私政策</a></li>
+						<li><a href="">练习我们</a></li>
+						<li><a href="">帮助中心</a></li>
+						<li><a href="">服务支持</a></li>
+						<li><a href="">东芝商城</a></li>
+						<li><a href="">小天鹅商城</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="footer2">
+				<div class="footer2">
+					<p>
+						"Copyright © 1968-2019 广东美的网络科技有限公司"
+						<a href="">粤ICP备17058257号</a>
+						<a href=""><img src="../img/gongan.jpg"/>
+						粤公网安备 44060602000546号
+						</a>
+						<a href=""><img src="../img/gongshang.jpg"/ style="width: 21px;height: 21px;"> 粤工商备P06811806002512</a>
+						
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<script src="../js/velocity.js"></script>
+		<script src="../js/shutter.js"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+		$(function () {
+		  $('.shutter').shutter({
+			shutterW: 1200, // 容器宽度
+			shutterH: 480, // 容器高度
+			isAutoPlay: true, // 是否自动播放
+			playInterval: 3000, // 自动播放时间
+			curDisplay: 3, // 当前显示页
+			fullPage: false // 是否全屏展示
+		  });
+		});
+		</script>
+		
+	
+	</body>
+</html>

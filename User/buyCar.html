@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/shutter.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../img/download (2)/font_1421590_1kds3yh5ey7/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/buyCar.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/xiyijixiangqing.css"/>
+	
+		<style type="text/css">
+		
+		
+			
+			
+		</style>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+//				$(".seach").click(function(){
+//					
+//					$("input[name='seach']").css("display","block")
+//				})
+
+				
+			})
+		</script>
+	</head>
+	<body style="background-color: #f4f4f4;">
+		<div id="header">
+			<div id="header1">
+				<div class="header">
+				
+					<a href="../index.html"><img src="../img/logo.png"/></a>
+					<div class="header-right">
+						<ul>
+							<li><a href="../index.html">首页</a></li>
+							<li><a href="商家入驻.html">商家入驻</a></li>
+							<li><a href="../meidibusiness.html">企业采购</a></li>
+							<li><a href="../meidijiadiantaogou.html">全屋家电套购</a></li>
+							<li><a href="../denglu.html">会员福利社</a></li>
+							<li><a href="../美居首页.html">美居</a></li>
+						</ul>
+						<div style="position: absolute;top: -16px;right: 40px;width:500px;">
+							<input type="text" name="seach" id="seache1" value="" size="20" placeholder="七夕,快来选购吧！" / style="position: relative;top: 10px;
+								right: 0px ; height: 35px;background: url(../img/搜索2.png) left no-repeat ;background-color: white;
+								text-indent: 2.5em;border: 0px;">
+							
+		
+							<div id="denglu1" class="denglu miss" style="float: right;" >
+								<
+								<i class="iconfont icon-icon_myon"></i>
+								<span id="" style="display:inline-block;font-size: 15px;margin-top: 15px;color: white;">
+									登陆
+								</span>
+							</div>
+							<div id="gouwuche1" class="gouwuche miss" style="float: right;" >
+								<i class="iconfont icon-gouwuche2"></i>
+							</div>
+							
+							<div id="shouji1"  class="shouji miss" style="float: right;cursor: pointer;">
+									<i class="iconfont icon-phone"></i>
+							</div>
+							
+						</div>
+						
+						<div class="shouji1">
+								<img src="../img/header_qr_all.png"/ style="height: 200px;width: 257px;">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div id="denglu">
+				<ul>
+					<li><a href=""><img src="../img/登陆1.png" alt="" />我的订单</a></li>
+					<li><a href=""><img src="../img/登陆2.png" alt="" />我的优惠券</a></li>
+					<li><a href=""><img src="../img/登陆3.png" alt="" />会员福利社</a></li>
+					<li><a href=""><img src="../img/登陆4.png" alt="" />我的权益</a></li>
+					<li><a href=""><img src="../img/登陆5.png" alt="" />我的美的</a></li>
+					<li><a href=""><img src="../img/登陆7.png" alt="" />账号设置</a></li>
+				</ul>
+			</div>
+			
+			
+			
+			
+			<div id="gouwuche">
+				<p>立即<a href="../denglu.html">登陆</a>,查看购物车商品</p>
+			</div>
+			
+			
+			<div style="background-color: #003b66;">
+				<p style="text-align: center;color: white;font-size: 13px;">通知：1.美的商城为美的集团官方渠道，请勿相信任何刷单信息！2.新疆区域由于交通管制无法正常发货，恢复时间待定。</p>
+			</div>
+			
+			
+			<div id="car-header">
+				<div class="car-header">
+					<h2 class="carHeader">购物车</h2>
+					
+					
+					<div class="right6" style="width: 325px;position: absolute;right: 0;top: 5px;">
+							<p><span style="color: #999;">配送</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span>
+									广东广州&nbsp;&nbsp;至&nbsp;&nbsp;
+									<span class="addr-xiqing" style="display: inline-block;padding: 8px 10px;border: 1px solid #999999;">
+										<a class="addr-main" href="javascript:void(0)" style="color: black;text-decoration: none;">广东省&nbsp;广州市&nbsp;黄浦区&nbsp;&nbsp;
+										<img src="../img/qyzz1.png"/></a>&nbsp;&nbsp;
+									</span>
+									
+								</span>
+							</p>
+							
+							<div id="addr">
+									<p class="reset" style="margin-top: 20px;margin-left: 400px;cursor: pointer;"><img src="../img/xiyijiaddr5.png"/></p>
+									<p class="addr-header">
+										<a href="javascript:void(0)" class="neiron">广东省<img src="../img/xiyijiaddr4.png" alt="" /></a>
+										&nbsp;&nbsp;&nbsp;
+										<a href="javascript:void(0)" class="neiron1">广州市<img src="../img/xiyijiaddr3.png" alt="" /></a>
+										&nbsp;&nbsp;&nbsp;
+										<a href="javascript:void(0)" class="neiron2">黄浦区<img src="../img/xiyijiaddr3.png" alt="" /></a>
+									</p>
+									<br />
+									<hr width="360px" / style="margin-left: 40px;">
+									<br />
+									<div class="addr-neiron">
+										<ul>
+											<li><a href="javascript:void(0)">北京市</a></li>
+											<li><a href="javascript:void(0)">天津市</a></li>
+											<li><a href="javascript:void(0)">河北省</a></li>
+											<li><a href="javascript:void(0)">山西省</a></li>
+										
+											<li><a href="javascript:void(0)">辽宁省</a></li>
+											<li><a href="javascript:void(0)">吉林省</a></li>
+											
+											<li><a href="javascript:void(0)">上海市</a></li>
+											<li><a href="javascript:void(0)">江苏省</a></li>
+											<li><a href="javascript:void(0)">黑龙江省</a></li>
+											<li><a href="javascript:void(0)">浙江省</a></li>
+											<li><a href="javascript:void(0)">安徽省</a></li>
+											<li><a href="javascript:void(0)">福建省</a></li>
+											<li><a href="javascript:void(0)">江西省</a></li>
+											<li><a href="javascript:void(0)">山东省</a></li>
+											<li><a href="javascript:void(0)">河南省</a></li>
+											<li><a href="javascript:void(0)">湖北省</a></li>
+											<li><a href="javascript:void(0)">湖南省</a></li>
+											<li><a href="javascript:void(0)">广东省</a></li>
+										
+											<li><a href="javascript:void(0)">海南省</a></li>
+											<li><a href="javascript:void(0)">重庆市</a></li>
+											<li><a href="javascript:void(0)">四川省</a></li>
+											<li><a href="javascript:void(0)">贵州省</a></li>
+											<li><a href="javascript:void(0)">云南省</a></li>
+											<li><a href="javascript:void(0)">西藏自治区</a></li>
+											<li><a href="javascript:void(0)">陕西省</a></li>
+											<li><a href="javascript:void(0)">甘肃省</a></li>
+											<li><a href="javascript:void(0)">青海省</a></li>
+											<li><a href="javascript:void(0)">内蒙古自治区</a></li>
+											<li><a href="javascript:void(0)">宁夏回族自治区</a></li>
+											<li><a href="javascript:void(0)">新疆维吾尔自治区</a></li>
+											<li><a href="javascript:void(0)">广西壮族自治区</a></li>
+										
+											
+										</ul>
+									</div>
+									
+									<div class="addr-neiron1">
+										<ul>
+											<li><a href="javascript:void(0)">广州市</a></li>
+											<li><a href="javascript:void(0)">深圳市</a></li>
+											<li><a href="javascript:void(0)">茂名市</a></li>
+											<li><a href="javascript:void(0)">佛山市</a></li>
+											<li><a href="javascript:void(0)">中山市</a></li>
+											<li><a href="javascript:void(0)">珠海市</a></li>
+											<li><a href="javascript:void(0)">惠州市</a></li>
+											<li><a href="javascript:void(0)">汕头市</a></li>
+											<li><a href="javascript:void(0)">广州市</a></li>
+											<li><a href="javascript:void(0)">深圳市</a></li>
+											<li><a href="javascript:void(0)">茂名市</a></li>
+											<li><a href="javascript:void(0)">佛山市</a></li>
+											<li><a href="javascript:void(0)">中山市</a></li>
+											<li><a href="javascript:void(0)">珠海市</a></li>
+											<li><a href="javascript:void(0)">惠州市</a></li>
+											<li><a href="javascript:void(0)">汕头市</a></li>
+											
+										</ul>
+									</div>
+									
+									
+									<div class="addr-neiron2">
+										<ul>
+											<li><a href="javascript:void(0)">越秀区</a></li>
+											<li><a href="javascript:void(0)">海珠区</a></li>
+											<li><a href="javascript:void(0)">天河区</a></li>
+											<li><a href="javascript:void(0)">黄浦区</a></li>
+											<li><a href="javascript:void(0)">天河区</a></li>
+											<li><a href="javascript:void(0)">花都区</a></li>
+											<li><a href="javascript:void(0)">从化区</a></li>
+											<li><a href="javascript:void(0)">白云区</a></li>
+											<li><a href="javascript:void(0)">黄浦区</a></li>
+											<li><a href="javascript:void(0)">天河区</a></li>
+											<li><a href="javascript:void(0)">花都区</a></li>
+											<li><a href="javascript:void(0)">从化区</a></li>
+											<li><a href="javascript:void(0)">白云区</a></li>
+											
+										</ul>
+									</div>
+								</div>
+							
+						</div>
+				</div>
+				
+				
+				
+			
+			</div>
+			<br />
+		
+			<div id="car-headName" >
+				<div class="car-headeName">
+					<ul>
+						<li class="car-checkbox"><input type="checkbox" name="checkbox" id="checkbox" value="" class="allCar" / style="vertical-align: middle;"> 全选</li>
+						<li class="car-product">商品信息</li>
+						<li class="car-sku">规格</li>
+						<li class="car-price">单价（元）</li>
+						<li class="car-num">数量</li>
+						<li class="car-all">小计（元）</li>
+						<li class="car-operation">操作</li>
+					</ul>			
+					<br />
+				</div>	
+				
+			</div>
+			
+			
+			<div class="car-items" >
+				<div class="car-item">
+					<div class="car-checkbox1"><input type="checkbox" name="" id="" value="" /> </div>
+					<div class="car-img"><img src="../img/car1.jpg"/></div>
+					<div class="car-product1" title="">
+						<a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31  </a>
+					</div>
+					<div class="car-sku1">
+						<span>7.2公斤</span>
+						<br />
+						<span>智利灰</span>
+					</div>
+					<div class="car-price1">
+						<span id="">
+							999.00
+						</span>
+					</div>
+					<div class="car-num1">
+						<div class="car-num11">
+							<span class="minus">
+								<span class="inner">
+									
+								</span>
+							</span>
+							<input type="text" name="" id="" value="1" class="car-input"/>
+							<span class="plus">
+								<span class="inner">
+									
+								</span>
+							</span>
+							
+							<span class="maxN">
+								库存：<span class="maxNum">2</span>
+							</span>
+						</div>
+					</div>
+					<div class="car-all1">
+						999.00
+					</div>
+					<div class="car-operation1">
+						<span id="">
+							移入收藏夹
+						</span>
+						<br />
+						<span id="" style="font-weight: bold;">
+							删除
+						</span>
+					</div>
+				</div>
+				
+				<div class="car-item">
+					<div class="car-checkbox1"><input type="checkbox" name="" id="" value="" /> </div>
+					<div class="car-img"><img src="../img/car1.jpg"/></div>
+					<div class="car-product1" title="">
+						<a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31  </a>
+					</div>
+					<div class="car-sku1">
+						<span>7.2公斤</span>
+						<br />
+						<span>智利灰</span>
+					</div>
+					<div class="car-price1">
+						<span id="">
+							999.00
+						</span>
+					</div>
+					<div class="car-num1">
+						<div class="car-num11">
+							<span class="minus">
+								<span class="inner">
+									
+								</span>
+							</span>
+							<input type="text" name="" id="" value="1" class="car-input"/>
+							<span class="plus">
+								<span class="inner">
+									
+								</span>
+							</span>
+							
+							<span class="maxN">
+								库存：<span class="maxNum">2</span>
+							</span>
+						</div>
+					</div>
+					<div class="car-all1">
+						999.00
+					</div>
+					<div class="car-operation1">
+						<span id="">
+							移入收藏夹
+						</span>
+						<br />
+						<span id="" style="font-weight: bold;">
+							删除
+						</span>
+					</div>
+				</div>
+				
+				
+				<div class="car-item">
+					<div class="car-checkbox1"><input type="checkbox" name="" id="" value="" /> </div>
+					<div class="car-img"><img src="../img/car1.jpg"/></div>
+					<div class="car-product1" title="">
+						<a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31  </a>
+					</div>
+					<div class="car-sku1">
+						<span>7.2公斤</span>
+						<br />
+						<span>智利灰</span>
+					</div>
+					<div class="car-price1">
+						<span id="">
+							888.00
+						</span>
+					</div>
+					<div class="car-num1">
+						<div class="car-num11">
+							<span class="minus">
+								<span class="inner">
+									
+								</span>
+							</span>
+							<input type="text" name="" id="" value="1" class="car-input"/>
+							<span class="plus">
+								<span class="inner">
+									
+								</span>
+							</span>
+							
+							<span class="maxN">
+								库存：<span class="maxNum">5</span>
+							</span>
+						</div>
+					</div>
+					<div class="car-all1">
+						888.00
+					</div>
+					<div class="car-operation1">
+						<span id="">
+							移入收藏夹
+						</span>
+						<br />
+						<span id="" style="font-weight: bold;">
+							删除
+						</span>
+					</div>
+				</div>
+			</div>
+			
+
+			
+			
+			
+			
+			
+			<div id="car-pay">
+				<div class="car-pay">
+					<div><input type="checkbox" name="" id="" value="" class="allCar" / style="vertical-align: middle;"> 全选</div>
+					<div>删除</div>
+					<div>移入收藏夹</div>
+				</div>
+				
+				<div id="car-payRight">
+					
+					<div class="carpay-Num">已选商品<span class="car-payNum">0</span>件</div>
+					<div class="carpay-price">
+						合计：￥<span class="all-priceNum" style="color: #FF6600;font-weight: bold;font-size: 16px;">0.00</span>元
+						<p>（不包含运费）</p>
+					</div>
+					<div class="carpay">去结算</div>
+					
+				</div>
+				
+			</div>
+			
+			
+			
+			
+			<br />
+			
+			<div id="list7">
+				<div class="list7">
+					<ul>
+						<li><a href="">商城入驻</a></li>
+						<li><a href="">服务条款</a></li>
+						<li><a href="">隐私政策</a></li>
+						<li><a href="">练习我们</a></li>
+						<li><a href="">帮助中心</a></li>
+						<li><a href="">服务支持</a></li>
+						<li><a href="">东芝商城</a></li>
+						<li><a href="">小天鹅商城</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="footer2">
+				<div class="footer2">
+					<p>
+						"Copyright © 1968-2019 广东美的网络科技有限公司"
+						<a href="">粤ICP备17058257号</a>
+						<a href=""><img src="../img/gongan.jpg"/>
+						粤公网安备 44060602000546号
+						</a>
+						<a href=""><img src="../img/gongshang.jpg"/ style="width: 21px;height: 21px;"> 粤工商备P06811806002512</a>
+						
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<script src="../js/velocity.js"></script>
+		<script src="../js/shutter.js"></script>
+		<script src="../js/buyCar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/xiyijixiangqing.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+		$(function () {
+		  $('.shutter').shutter({
+			shutterW: 1215, // 容器宽度
+			shutterH: 480, // 容器高度
+			isAutoPlay: true, // 是否自动播放
+			playInterval: 3000, // 自动播放时间
+			curDisplay: 3, // 当前显示页
+			fullPage: false // 是否全屏展示
+		  });
+		});
+		</script>
+		
+	
+	</body>
+</html>

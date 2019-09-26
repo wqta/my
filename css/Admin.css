@@ -1,0 +1,778 @@
+#Admin-nav{
+	width: 1215px;
+	/*height: 50px;*/
+	margin: 0 auto;
+	/*background-color: red;*/
+	/*padding: 50px 40px;*/
+	overflow: hidden;
+	
+}
+
+.nav-color{
+	color: #19CAFD;
+}
+
+
+.Admin-nav{
+	padding: 30px 0;
+	
+}
+
+.Admin-nav1{
+	background-color: white;
+}
+
+
+.Admin-nav ul{
+	margin-left:205px ;
+	overflow: hidden;
+}
+
+.Admin-nav ul li{
+	width: 100px;
+	padding: 10px 20px;
+	/*background-color: burlywood;*/
+	float: left;
+	/*border: 1px solid #D9D9D9;*/
+	margin-left: 51px;
+	cursor: pointer;	
+		
+}
+
+
+#Admin-body{
+	
+}
+
+
+#Admin-select{
+	margin-bottom: 40px;
+	/*display: none;*/
+	
+}
+
+.Admin-selectSave{
+	width: 1215px;
+	height: 60px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.Admin-selectSave-submit{
+	height: 60px;
+    width: 158px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #f60;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    /*float: right;*/
+}
+
+.Admin-selectSave-submit a{
+	height: 60px;
+    width: 158px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #f60;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+#Admin-select-page{
+	width: 1215px;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+	
+	
+}
+
+.Admin-select-page{
+	overflow: hidden;
+	padding-bottom: 10px;
+	margin-left:460px;
+}
+
+.page-a{
+	padding: 5px 20px;
+	background-color: #708090;
+}
+
+.page-color{
+	background-color: #0093d5;;
+}
+
+.Admin-select-page ul{
+	padding-right:5px ;
+}
+
+.Admin-select-page ul li{
+	float: left;
+	height: 30px;
+	width: 50px;
+	line-height: 30px;
+	margin-left: 5px;
+	text-align: center;
+	border: 1px solid #B9B9B9;
+	cursor: pointer;
+	/*background-color: #B9B9B9;*/
+}
+
+.k{
+	float: left;
+	cursor: pointer;
+	margin-left: 10px;
+	
+}
+
+/*商品添加*/
+#Admin-add{
+	margin-bottom: 40px;
+	display: none;
+	overflow:hidden ;
+}
+
+.Admin-add{
+	width: 1215px;
+	margin: 0 auto;
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+#upImage{
+	padding-top: 10px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.Admin-Add-submit{
+	
+	height: 60px;
+    width: 158px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #f60;
+    position: absolute;
+    left: 455px;
+    bottom: 35px;
+    border: 0;
+    border-radius: 5px;
+    
+}
+
+
+
+.Admin-add table{
+	margin: 20px auto;
+}
+
+.Admin-add table tr{
+	
+}
+
+.er{
+	text-align: right;
+	font-size:20px ;
+	color: #222222;
+	padding:30px 0;
+}
+
+.Admin-add table tr td input{
+	border: 1px solid #CCCCCC;
+	outline: none;
+	width: 550px;
+	height: 40px;
+	margin-left: 50px;
+	border-radius: 5px;
+}
+
+
+
+
+/*用户查询*/
+#Admin-selectUser{
+	margin-bottom: 40px;
+	overflow: hidden;
+	display: none;
+}
+
+.Admin-selectUser{
+	width: 1215px;
+	margin: 0 auto;
+	background-color: #EEEEEE;
+}
+
+.Admin-selectUser-head{
+	width: 200px;
+	color: #5A5959;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30px;
+	padding-top: 10px;
+	
+}
+
+.UserList{
+	overflow: hidden;
+	padding-top: 17px;
+}
+
+.UserList ul{
+	overflow: hidden;
+	padding-bottom:20px ;
+}
+
+.UserList ul li{
+	float: left;
+	margin-left:20px ;
+	font-size: 13px;
+	color: #3F3F3F;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+#Admin-select-body{
+	margin-top: 20px;
+}
+
+.Admin-select-body-head{
+	border: 1px solid #CCCCCC;
+	background-color: #d3ebf4;
+}
+
+#Admin-Users{
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.Admin-User{
+	background-color: white;
+	overflow: hidden;
+	
+}
+
+.Admin-User ul{
+	border: 1px solid #C8C8C8;
+	overflow: hidden;
+	padding: 20px 8px;
+	background-color: white;
+	padding-left: 45px;
+}
+
+
+.Admin-User ul li{
+	float: left;
+	
+	font-size: 13px;
+	color: #8d7d7d;
+	text-align: center;
+}
+
+.myAddr{
+	cursor: pointer;
+}
+
+.myCheack{
+	cursor: pointer;
+}
+
+.Admin-userList{
+	margin-top: 5px;
+}
+
+.Admin-userList-head{
+	background-color: #f6fff0;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.buyList-1{
+	width: 200px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+	 margin-left: 50px;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.buyList-2{
+	width: 140px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buyList-3{
+	width: 140px;
+	font-size: 12px;
+    color: #999;
+ 	line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buyList-4{
+	width: 100px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.buyList-6{
+	width: 159px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buyList-7{
+	width: 100px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buyList-8{
+	width: 120px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buyList-9{
+	width: 200px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Admin-userList{
+	display: none;
+}
+
+.buyList-item{
+	font-size: 12px;
+	color: #333;
+	padding: 20px 0;
+	background-color: white;
+	border-bottom: 1px solid #e9e9e9;;
+	overflow: hidden;
+	margin-top: 5px;
+	
+}
+
+.buyList1-1{
+	width: 150px;
+	margin-left: 102px;
+	color: #333;
+	float: left;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.buyList1-11{
+	margin-left:76px ;
+	margin-top: 0px;
+}
+
+.buyList1-12{
+	margin-left:76px ;
+	
+}
+
+.buyList1-1 img{
+	float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e9e9e9;
+}
+
+
+
+.buyList1-2{
+	width: 140px;
+	font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.buyList1-3{
+	width: 140px;
+	font-size: 12px;
+    color: #333;
+ 	line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.buyList1-4{
+	width: 100px;
+	font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.buyList1-5{
+	width: 140px;
+	font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.buyList1-6{
+	width: 159px;
+	font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.buyList1-7{
+	width: 100px;
+	font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.buyList1-8{
+	width: 115px;
+	font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.buyList1-9{
+	width: 200px;
+	font-size: 12px;
+    color: #333;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+
+
+.car-num11{
+	width: 150px;
+}
+
+
+.buyList1-61{
+	border: 0;
+}
+
+.buyList1-61 option{
+	border: 0;
+}
+
+.buyList1-6 p{
+	color: #AAAAAA;
+}
+
+.buyList1-7 span{
+	color: #FF6600;
+}
+
+
+.Admin-User-addr{
+	display: none;
+}
+
+
+.Admin-User-addr-head{
+	background-color: #f6fff0;
+	overflow: hidden;
+	padding: 10px 0;
+	margin-top: 5px;
+}
+
+.Useradd-1{
+	width: 200px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+	 margin-left: 50px;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.Useradd-2{
+	width: 140px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Useradd-3{
+	width: 140px;
+	font-size: 12px;
+    color: #999;
+ 	line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Useradd-4{
+	width: 100px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.Useradd-6{
+	width: 300px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Useradd-7{
+	width: 100px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Useradd-8{
+	width: 120px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.Admin-User-addrLists{
+	padding: 5px 0;
+}
+
+.Admin-User-addrList{
+	
+	background-color: #f3fdfe;
+	overflow: hidden;
+	padding: 10px 0;
+	margin-bottom: 4px;
+	
+}
+
+
+.Useradd1-1{
+	width: 200px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+	 margin-left: 50px;
+	float: left;
+	text-align: center;
+}
+
+
+.Useradd2-2{
+	width: 140px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.Useradd3-3{
+	width: 140px;
+	font-size: 12px;
+    color: #999;
+ 	line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.Useradd4-4{
+	width: 100px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+
+
+.Useradd6-6{
+	width: 300px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.Useradd7-7{
+	width: 100px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+.Useradd8-8{
+	width: 120px;
+	font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    float: left;
+    text-align: center;
+}
+
+/*用户查询*/
+.Admin-selectUser-seach{
+	width: 1203px;
+	margin: 0 auto;
+	padding: 20px 0px;
+	padding-left: 10px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	background-color: #d7dbd0;
+}
+
+.seach{
+	float: left;
+	margin-right: 70px;
+}
+
+.seach input{
+	outline: none;
+	height: 30px;
+}
+
+.SeachSumit{
+	height: 30px;
+	text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #f60;
+    border: 0;
+    width: 100px;
+    color: #fff;
+    
+}
+
+.shopSumit{
+	height: 30px;
+	text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #f60;
+    border: 0;
+    width: 100px;
+    color: #fff;
+    
+}
+
+
+
+
+
+/*用户添加*/
+#Admin-AddUser{
+	margin-bottom: 40px;
+	
+	display: none;
+}
+
+.Admin-AddUser{
+	width: 1215px;
+	margin: 0 auto;
+	background-color: white;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+.Admin-AddUser table{
+	margin-left: 204px;
+	margin-top: 40px;
+}
+
+.Admin-AddUser table tr td input{
+	border: 1px solid #CCCCCC;
+	outline: none;
+	width: 350px;
+	height: 40px;
+	margin-left: 50px;
+	border-radius: 5px;
+}
+
+
+
+
+
+

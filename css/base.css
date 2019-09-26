@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+
+/*图片放大镜样式*/
+
+
+.spec-preview{
+	
+	position: relative;
+	
+}
+.jqzoom{
+	/*width: 530px;
+	height: 530px;*/
+	
+	position: relative;
+	
+	cursor:pointer;
+	
+	
+	}
+	
+.zoomdiv{
+	
+	z-index:100;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:800px;
+	height:800px;
+	background:#ffffff;
+	border:1px solid #CCCCCC;
+	display:none;
+	text-align:center;
+	overflow:hidden;
+	}
+.jqZoomPup{
+	z-index:10;
+	visibility:hidden;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:40px;
+	height:40px;
+	border:1px solid #aaa;
+	background:#ffffff /*url(../images/zoom.png) 50% center no-repeat*/;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);}
+
+/*图片小图预览列表*/
+/*.spec-preview{width:350px;height:350px;border:1px solid #DFDFDF;}*/

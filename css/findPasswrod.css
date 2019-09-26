@@ -1,0 +1,102 @@
+#find-password{
+	position: absolute;
+	width: 450px;
+	height: 600px;
+	/*background-color: red;*/
+	right: 0;
+	top: 0;
+}
+
+.find-password{
+	margin: 50px 0 25px;
+	border: 1px solid #c8c8c8;
+	/*padding-right: 20px;*/
+	box-shadow: 2px 2px 5px #333333;;
+	
+}
+
+.find-password h2{
+	margin-top: 15px;
+	font-size: 32px;
+	font-weight: normal;
+	color: #333333;
+	text-align: center;
+}
+
+.find-password-info{
+	margin-top: 20px;
+}
+
+.ae{
+	margin-top: 15px;
+	margin-left: 80px;
+}
+
+.find-password-info1{
+	position: relative;
+}
+
+.find-password-info1-code{
+	display: block;
+    height: 39px;
+    line-height: 40px;
+    text-align: center;
+    color: #3f3f3f;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    background-color: #969896;
+    right: 88px;
+    
+    width: 80px;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 10px;
+    border-left: 1px solid #c8c8c8;
+    text-decoration: none;
+}
+
+.ae input{
+	width: 270px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+    background: transparent;
+    outline: none;
+}
+
+
+.find-password-submit{
+	display: block;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #0092d8;
+    color: #fff;
+    margin: 20px 0 17px 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+}
+
+.find-password-info1-code{
+	 cursor: pointer;
+}
+
+
+.qqq{
+	font-size: 10px;
+	color: #fcab2b;
+}

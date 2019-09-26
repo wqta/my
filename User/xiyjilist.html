@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品展示</title>
+		<link rel="stylesheet" type="text/css" href="../css/shutter.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/qiyezizhi.css"/>
+		<link rel="stylesheet" type="text/css" href="../img/download (2)/font_1421590_1kds3yh5ey7/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/xiyiji.css"/>
+		<style type="text/css">
+			
+			
+		</style>
+		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+//				$(".seach").click(function(){
+//					
+//					$("input[name='seach']").css("display","block")
+//				})
+
+//				$(".shouji").hover(function(){
+//					$(".shouji1").css("display","block")
+//				},function(){
+//					$(".shouji1").css("display","none")
+//				})
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="header1">
+				
+			
+				<div class="header">
+					
+						<a href="index.html"><img src="../img/logo.png"/></a>
+						<div class="header-right">
+							<ul>
+								<li><a href="../index.html">首页</a></li>
+								<li><a href="商家入驻.html">商家入驻</a></li>
+								<li><a href="meidibusiness.html">企业采购</a></li>
+								<li><a href="meidijiadiantaogou.html">全屋家电套购</a></li>
+								<li><a href="denglu.html">会员福利社</a></li>
+								<li><a href="美居首页.html">美居</a></li>
+							</ul>
+							<div style="position: absolute;top: -16px;right: 40px;width:500px;">
+								<input type="text" name="seach" id="seache1" value="" size="20" placeholder="七夕,快来选购吧！" / style="position: relative;top: 10px;
+									right: 0px ; height: 35px;background: url(../img/搜索2.png) left no-repeat ;background-color: white;
+									text-indent: 2.5em;border: 0px;">
+							
+			
+								<div id="denglu1" class="denglu miss" style="float: right;" >
+									
+									<i class="iconfont icon-icon_myon"></i>
+									<span id="" style="display:inline-block;font-size: 15px;margin-top: 15px;color: white;">
+										登陆
+									</span>
+								</div>
+								<div id="gouwuche1" class="gouwuche miss" style="float: right;" >
+									<i class="iconfont icon-gouwuche2"></i>
+								</div>
+								
+								<div id="shouji1"  class="shouji miss" style="float: right;cursor: pointer;">
+										<i class="iconfont icon-phone"></i>
+								</div>
+								
+							</div>
+							
+							<div class="shouji1">
+									<img src="img/header_qr_all.png"/ style="height: 200px;width: 257px;">
+							</div>
+						</div>
+				</div>
+			</div>
+			
+			<div id="denglu">
+				<ul>
+					<li><a href=""><img src="../img/登陆1.png" alt="" />我的订单</a></li>
+					<li><a href=""><img src="../img/登陆2.png" alt="" />我的优惠券</a></li>
+					<li><a href=""><img src="../img/登陆3.png" alt="" />会员福利社</a></li>
+					<li><a href=""><img src="../img/登陆4.png" alt="" />我的权益</a></li>
+					<li><a href=""><img src="../img/登陆5.png" alt="" />我的美的</a></li>
+					<li><a href=""><img src="../img/登陆7.png" alt="" />账号设置</a></li>
+				</ul>
+			</div>
+			
+			
+			
+			<div id="gouwuche">
+				<p>立即<a href="">登陆</a>,查看购物车商品</p>
+			</div>
+			
+			<div style="background-color: #003b66;">
+				<p style="text-align: center;color: white;font-size: 13px;">通知：1.美的商城为美的集团官方渠道，请勿相信任何刷单信息！2.新疆区域由于交通管制无法正常发货，恢复时间待定。</p>
+			</div>
+			
+			
+			<div id="xiyiji-header">
+				<br />
+				<p class="xiyiji"><a href="index.html">首页</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="qiyezhizi.html">帮助中心</a>
+					<span style="float: right;width: 100px;">共<span class="listIndex"></span>件商品</span>
+				</p>
+				<p class="xiyiji1">
+					<span style="color:#9999b2 ;">分类：</span>
+					<a href="">空调</a>
+					<a href="">冰箱</a>
+					<a href="" style="color:#19cafd ;">洗衣机</a>
+					<a href="">厨房小电器</a>
+					<a href="">厨房大电器</a>
+					<a href="">生活家电</a>
+					<a href="">热水/净水器</a>
+					<a href="">配件及周边</a>
+				</p>
+				
+				<p class="xiyiji1">
+					<span style="color:#9999b2 ;">机型：</span>
+					
+					<a href="" style="color:#19cafd ;">全部洗衣机</a>
+					<a href="">滚筒洗衣机</a>
+					<a href="">波轮洗衣机</a>
+					<a href="">双缸洗衣机</a>
+					<a href="">干衣机</a>
+					<a href="">单脱机</a>
+					<a href="">复式洗衣机</a>
+				</p>
+				<br />
+				<p class="xiyiji"><a href="index.html" style="color: #19cafd ;">推荐</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="qiyezhizi.html" class="xiyiji-a">价格<img src="../img/xiyijiaddr2.png" alt="" / style="vertical-align: middle;"></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="javascript:void(0)" class="addr">广东省&nbsp;广州市&nbsp;天河区<img src="../img/xiyijiaddr2.png" alt="" / style="vertical-align: middle;"></a>
+					<input type="checkbox" name="" id="" value="" / style="margin-left:750px ;vertical-align: middle;">&nbsp;&nbsp;&nbsp;&nbsp;仅看有货
+				</p>
+				<br />
+				
+				<div id="jiage">
+					<p><a href="">价格由低到高</a></p>
+					<p><a href="">价格由高到低</a></p>
+				</div>
+				
+				
+				<div id="addr">
+					<p class="reset" style="margin-top: 20px;margin-left: 400px;cursor: pointer;"><img src="../img/xiyijiaddr5.png"/></p>
+					<p class="addr-header">
+						<a href="javascript:void(0)" class="neiron">广东省<img src="../img/xiyijiaddr4.png" alt="" /></a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="javascript:void(0)" class="neiron1">广州市<img src="../img/xiyijiaddr3.png" alt="" /></a>
+						&nbsp;&nbsp;&nbsp;
+						<a href="javascript:void(0)" class="neiron2">黄浦区<img src="../img/xiyijiaddr3.png" alt="" /></a>
+					
+					</p>
+					
+					<br />
+					<hr width="360px" / style="margin-left: 40px;">
+					<br />
+					<div class="addr-neiron">
+						<ul>
+							<li><a href="javascript:void(0)">北京市</a></li>
+							<li><a href="javascript:void(0)">天津市</a></li>
+							<li><a href="javascript:void(0)">河北省</a></li>
+							<li><a href="javascript:void(0)">山西省</a></li>
+						
+							<li><a href="javascript:void(0)">辽宁省</a></li>
+							<li><a href="javascript:void(0)">吉林省</a></li>
+							
+							<li><a href="javascript:void(0)">上海市</a></li>
+							<li><a href="javascript:void(0)">江苏省</a></li>
+							<li><a href="javascript:void(0)">黑龙江省</a></li>
+							<li><a href="javascript:void(0)">浙江省</a></li>
+							<li><a href="javascript:void(0)">安徽省</a></li>
+							<li><a href="javascript:void(0)">福建省</a></li>
+							<li><a href="javascript:void(0)">江西省</a></li>
+							<li><a href="javascript:void(0)">山东省</a></li>
+							<li><a href="javascript:void(0)">河南省</a></li>
+							<li><a href="javascript:void(0)">湖北省</a></li>
+							<li><a href="javascript:void(0)">湖南省</a></li>
+							<li><a href="javascript:void(0)">广东省</a></li>
+						
+							<li><a href="javascript:void(0)">海南省</a></li>
+							<li><a href="javascript:void(0)">重庆市</a></li>
+							<li><a href="javascript:void(0)">四川省</a></li>
+							<li><a href="javascript:void(0)">贵州省</a></li>
+							<li><a href="javascript:void(0)">云南省</a></li>
+							<li><a href="javascript:void(0)">西藏自治区</a></li>
+							<li><a href="javascript:void(0)">陕西省</a></li>
+							<li><a href="javascript:void(0)">甘肃省</a></li>
+							<li><a href="javascript:void(0)">青海省</a></li>
+							<li><a href="javascript:void(0)">内蒙古自治区</a></li>
+							<li><a href="javascript:void(0)">宁夏回族自治区</a></li>
+							<li><a href="javascript:void(0)">新疆维吾尔自治区</a></li>
+							<li><a href="javascript:void(0)">广西壮族自治区</a></li>
+							
+						</ul>
+					</div>
+					
+					<div class="addr-neiron1">
+						<ul>
+							<!--<li><a href="javascript:void(0)">深圳市</a></li>-->
+							<!--<li><a href="javascript:void(0)">广州市</a></li>
+							<li><a href="javascript:void(0)">深圳市</a></li>
+							<li><a href="javascript:void(0)">茂名市</a></li>
+							<li><a href="javascript:void(0)">佛山市</a></li>
+							<li><a href="javascript:void(0)">中山市</a></li>
+							<li><a href="javascript:void(0)">珠海市</a></li>
+							<li><a href="javascript:void(0)">惠州市</a></li>
+							<li><a href="javascript:void(0)">汕头市</a></li>
+							<li><a href="javascript:void(0)">广州市</a></li>
+							<li><a href="javascript:void(0)">深圳市</a></li>
+							<li><a href="javascript:void(0)">茂名市</a></li>
+							<li><a href="javascript:void(0)">佛山市</a></li>
+							<li><a href="javascript:void(0)">中山市</a></li>
+							<li><a href="javascript:void(0)">珠海市</a></li>
+							<li><a href="javascript:void(0)">惠州市</a></li>
+							<li><a href="javascript:void(0)">汕头市</a></li>-->
+							
+						</ul>
+					</div>
+					
+					
+					<div class="addr-neiron2">
+						<ul>
+							<li><a href="javascript:void(0)">越秀区</a></li>
+							<li><a href="javascript:void(0)">海珠区</a></li>
+							<li><a href="javascript:void(0)">天河区</a></li>
+							<li><a href="javascript:void(0)">黄浦区</a></li>
+							<li><a href="javascript:void(0)">天河区</a></li>
+							<li><a href="javascript:void(0)">花都区</a></li>
+							<li><a href="javascript:void(0)">从化区</a></li>
+							<li><a href="javascript:void(0)">白云区</a></li>
+							<li><a href="javascript:void(0)">黄浦区</a></li>
+							<li><a href="javascript:void(0)">天河区</a></li>
+							<li><a href="javascript:void(0)">花都区</a></li>
+							<li><a href="javascript:void(0)">从化区</a></li>
+							<li><a href="javascript:void(0)">白云区</a></li>
+							
+						</ul>
+					</div>
+				
+					
+				</div>
+				
+				
+			</div>
+			
+			
+			<div id="xiyiji-neiron">
+				<ul class="xiyiji2">
+					<li>
+						<img src="../img/xiyiji4.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31 </a></p>
+						<div class="wen">
+							自清洗 ，洗净内外桶，杜绝二次污染
+							自编程设计，自由调节
+							24小时预约，有效避免用水用电高峰
+							剩余时间显示，洗涤进程一目了然
+							多种分类洗涤，满足各种洗衣需求
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					<li>
+						<img src="../img/xiyiji6.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji3.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥2829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;877</span></p>
+						<p class="tiao"><a href="">  滚筒洗衣机 8KG变频 一级能效  wifi控制 MG80V330WDX  </a></p>
+						<div class="wen">
+							触摸屏设计，操作简单；M-smart智能家居系统，WIFI控制；变频电机，节能静音；除菌洗；银灰色门圈，时尚大气；
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					<li>
+						<img src="../img/xiyiji5.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji2.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥799.00</span>&nbsp;&nbsp;&nbsp;&nbsp; <sub style="font-weight: bold;">￥723</sub><img src="img/xiyiji会员.png"/ style="vertical-align: middle;"> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;577</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 6.5KG 8大程序 不锈钢内桶 MB65-1000H   </a></p>
+						<div class="wen">
+							6.5KG容量，8大程序，8档水位，自动断电，不锈钢内桶，低噪静音
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					
+					
+					
+					<li>
+						<img src="../img/xiyiji4.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31 </a></p>
+						<div class="wen">
+							自清洗 ，洗净内外桶，杜绝二次污染
+							自编程设计，自由调节
+							24小时预约，有效避免用水用电高峰
+							剩余时间显示，洗涤进程一目了然
+							多种分类洗涤，满足各种洗衣需求
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					<li>
+						
+						<img src="../img/xiyiji7.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥1829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;2277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 5.5KG全自动 自动断电 安全童锁 MB55V30</a></p>
+						<div class="wen">
+							多种细分程序，分类洗涤更卫生；8段水位选择，有效省水；安全童锁，有效避免宝宝误操作；镀锌钢板箱体防锈防老化；桶自洁，清洁内桶
+						</div>
+						<img src="img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					<li>
+						<img src="../img/xiyiji5.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji2.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥799.00</span>&nbsp;&nbsp;&nbsp;&nbsp; <sub style="font-weight: bold;">￥723</sub><img src="../img/xiyiji会员.png"/ style="vertical-align: middle;"> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;577</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 6.5KG 8大程序 不锈钢内桶 MB65-1000H   </a></p>
+						<div class="wen">
+							6.5KG容量，8大程序，8档水位，自动断电，不锈钢内桶，低噪静音
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					<li>
+						<img src="../img/xiyiji6.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji3.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥2829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;877</span></p>
+						<p class="tiao"><a href="">  滚筒洗衣机 8KG变频 一级能效  wifi控制 MG80V330WDX  </a></p>
+						<div class="wen">
+							触摸屏设计，操作简单；M-smart智能家居系统，WIFI控制；变频电机，节能静音；除菌洗；银灰色门圈，时尚大气；
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					
+					
+					<li>
+						<img src="../img/xiyiji6.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji3.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥2829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;877</span></p>
+						<p class="tiao"><a href="">  滚筒洗衣机 8KG变频 一级能效  wifi控制 MG80V330WDX  </a></p>
+						<div class="wen">
+							触摸屏设计，操作简单；M-smart智能家居系统，WIFI控制；变频电机，节能静音；除菌洗；银灰色门圈，时尚大气；
+						</div>
+						<img src="img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					<li>
+						<img src="../img/xiyiji4.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31 </a></p>
+						<div class="wen">
+							自清洗 ，洗净内外桶，杜绝二次污染
+							自编程设计，自由调节
+							24小时预约，有效避免用水用电高峰
+							剩余时间显示，洗涤进程一目了然
+							多种分类洗涤，满足各种洗衣需求
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					<li>
+						<img src="../img/xiyiji5.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji2.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥799.00</span>&nbsp;&nbsp;&nbsp;&nbsp; <sub style="font-weight: bold;">￥723</sub><img src="../img/xiyiji会员.png"/ style="vertical-align: middle;"> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;577</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 6.5KG 8大程序 不锈钢内桶 MB65-1000H   </a></p>
+						<div class="wen">
+							6.5KG容量，8大程序，8档水位，自动断电，不锈钢内桶，低噪静音
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					
+					<li>
+						
+						<img src="../img/xiyiji7.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥1829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;2277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 5.5KG全自动 自动断电 安全童锁 MB55V30</a></p>
+						<div class="wen">
+							多种细分程序，分类洗涤更卫生；8段水位选择，有效省水；安全童锁，有效避免宝宝误操作；镀锌钢板箱体防锈防老化；桶自洁，清洁内桶
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					
+					<li>
+						<img src="../img/xiyiji6.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji3.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥2829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;877</span></p>
+						<p class="tiao"><a href="">  滚筒洗衣机 8KG变频 一级能效  wifi控制 MG80V330WDX  </a></p>
+						<div class="wen">
+							触摸屏设计，操作简单；M-smart智能家居系统，WIFI控制；变频电机，节能静音；除菌洗；银灰色门圈，时尚大气；
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					<li>
+						<img src="../img/xiyiji4.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31 </a></p>
+						<div class="wen">
+							自清洗 ，洗净内外桶，杜绝二次污染
+							自编程设计，自由调节
+							24小时预约，有效避免用水用电高峰
+							剩余时间显示，洗涤进程一目了然
+							多种分类洗涤，满足各种洗衣需求
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					<li>
+						<img src="../img/xiyiji5.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji2.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥799.00</span>&nbsp;&nbsp;&nbsp;&nbsp; <sub style="font-weight: bold;">￥723</sub><img src="../img/xiyiji会员.png"/ style="vertical-align: middle;"> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;577</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 6.5KG 8大程序 不锈钢内桶 MB65-1000H   </a></p>
+						<div class="wen">
+							6.5KG容量，8大程序，8档水位，自动断电，不锈钢内桶，低噪静音
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					
+					<li>
+						
+						<img src="../img/xiyiji7.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥1829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;2277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 5.5KG全自动 自动断电 安全童锁 MB55V30</a></p>
+						<div class="wen">
+							多种细分程序，分类洗涤更卫生；8段水位选择，有效省水；安全童锁，有效避免宝宝误操作；镀锌钢板箱体防锈防老化；桶自洁，清洁内桶
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					
+					<li>
+						<img src="../img/xiyiji6.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji3.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥2829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;877</span></p>
+						<p class="tiao"><a href="">  滚筒洗衣机 8KG变频 一级能效  wifi控制 MG80V330WDX  </a></p>
+						<div class="wen">
+							触摸屏设计，操作简单；M-smart智能家居系统，WIFI控制；变频电机，节能静音；除菌洗；银灰色门圈，时尚大气；
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					<li>
+						<img src="../img/xiyiji4.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31 </a></p>
+						<div class="wen">
+							自清洗 ，洗净内外桶，杜绝二次污染
+							自编程设计，自由调节
+							24小时预约，有效避免用水用电高峰
+							剩余时间显示，洗涤进程一目了然
+							多种分类洗涤，满足各种洗衣需求
+						</div>
+						<img src="img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+				
+					<li>
+						
+						<img src="../img/xiyiji7.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥1829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;2277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 5.5KG全自动 自动断电 安全童锁 MB55V30</a></p>
+						<div class="wen">
+							多种细分程序，分类洗涤更卫生；8段水位选择，有效省水；安全童锁，有效避免宝宝误操作；镀锌钢板箱体防锈防老化；桶自洁，清洁内桶
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					
+					<li>
+						<img src="../img/xiyiji6.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji3.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥2829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;877</span></p>
+						<p class="tiao"><a href="">  滚筒洗衣机 8KG变频 一级能效  wifi控制 MG80V330WDX  </a></p>
+						<div class="wen">
+							触摸屏设计，操作简单；M-smart智能家居系统，WIFI控制；变频电机，节能静音；除菌洗；银灰色门圈，时尚大气；
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					<li>
+						<img src="../img/xiyiji4.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 7.2KG 24小时预约 多种分类洗涤 MB72V31 </a></p>
+						<div class="wen">
+							自清洗 ，洗净内外桶，杜绝二次污染
+							自编程设计，自由调节
+							24小时预约，有效避免用水用电高峰
+							剩余时间显示，洗涤进程一目了然
+							多种分类洗涤，满足各种洗衣需求
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+					<li>
+						<img src="../img/xiyiji5.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji2.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥799.00</span>&nbsp;&nbsp;&nbsp;&nbsp; <sub style="font-weight: bold;">￥723</sub><img src="../img/xiyiji会员.png"/ style="vertical-align: middle;"> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;577</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 6.5KG 8大程序 不锈钢内桶 MB65-1000H   </a></p>
+						<div class="wen">
+							6.5KG容量，8大程序，8档水位，自动断电，不锈钢内桶，低噪静音
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					
+					</li>
+					
+					<li>
+						
+						<img src="../img/xiyiji7.webp"/ style="width: 220px;height: 240px;margin-top: 35px;margin-left:10px ;">
+						<img src="../img/xiyiji1.png"/ style="position: absolute;right: 0;top: 0;">
+						<p style="margin-top: 30px;"><span style="color: red;font-size: 18px;">￥1829.00</span> <span style="float: right;font-size:12px ;color: #a599a5;margin-top: 7px;">评价&nbsp;&nbsp;2277</span></p>
+						<p class="tiao"><a href="">波轮洗衣机 5.5KG全自动 自动断电 安全童锁 MB55V30</a></p>
+						<div class="wen">
+							多种细分程序，分类洗涤更卫生；8段水位选择，有效省水；安全童锁，有效避免宝宝误操作；镀锌钢板箱体防锈防老化；桶自洁，清洁内桶
+						</div>
+						<img src="../img/xiyiji自营.png"/ style="margin-top: 5px;">
+						
+						<p class="gouwu"><a href=""><img src="../img/xiyiji购物车.png"/ style="vertical-align: middle;">
+							&nbsp;购物车
+						</a>
+						<span id="" style="float: right;">
+							<input type="checkbox" name="" id="" value="" />&nbsp;对比
+						</span>
+						</p>
+					</li>
+				</ul>
+				
+			</div>
+			
+			
+			<br />
+			<br />	
+			<div id="dianji">
+				<div class="dianji">
+					<a href=""><</a>
+					<a href="" style="background-color: #0093d5;">1</a>
+					<a href="">2</a>
+					<a href="">></a>
+				</div>
+			</div>
+			
+
+			<br />
+			<br />
+			<div id="list7">
+				<div class="list7">
+					<ul>
+						<li><a href="">商城入驻</a></li>
+						<li><a href="">服务条款</a></li>
+						<li><a href="">隐私政策</a></li>
+						<li><a href="">练习我们</a></li>
+						<li><a href="">帮助中心</a></li>
+						<li><a href="">服务支持</a></li>
+						<li><a href="">东芝商城</a></li>
+						<li><a href="">小天鹅商城</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="footer2">
+				<div class="footer2">
+					<p>
+						"Copyright © 1968-2019 广东美的网络科技有限公司"
+						<a href="">粤ICP备17058257号</a>
+						<a href=""><img src="../img/gongan.jpg"/>
+						粤公网安备 44060602000546号
+						</a>
+						<a href=""><img src="../img/gongshang.jpg"/ style="width: 21px;height: 21px;"> 粤工商备P06811806002512</a>
+						
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<script src="../js/xiyiji.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/velocity.js"></script>
+		<script src="../js/shutter.js"></script>
+		<script src="../js/qyzz.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+		
+	
+	</body>
+</html>

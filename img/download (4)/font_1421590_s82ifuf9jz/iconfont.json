@@ -1,0 +1,65 @@
+{
+  "id": "1421590",
+  "name": "meidi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "40353",
+      "name": "手机",
+      "font_class": "phone",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1970330",
+      "name": "银联支付",
+      "font_class": "yinlianzhifu",
+      "unicode": "e796",
+      "unicode_decimal": 59286
+    },
+    {
+      "icon_id": "2693840",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3628342",
+      "name": "购物车",
+      "font_class": "gouwuche2",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4360318",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "8360867",
+      "name": "icon_my on",
+      "font_class": "icon_myon",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "10928218",
+      "name": "success",
+      "font_class": "success",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "10928227",
+      "name": "personal center click",
+      "font_class": "personalcenterclick",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}

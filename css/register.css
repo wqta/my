@@ -1,0 +1,158 @@
+#login-main{
+	width: 1215px;
+	
+	margin: 0 auto;
+	position: relative;
+}
+
+#denglu-denglu{
+	height: 600px;
+	width: 1215px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+#denglu-denglu img{
+	width: 36%;
+	height: 80%;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 27px;
+}
+
+
+#login{
+	height: 480px;
+	width: 660px;
+	background-color: white;
+	position: absolute;
+	right: -25px;
+	top: 58px;
+	border: 1px solid #e6e6e6;
+	box-shadow: 1px 1px 8px black;
+}
+
+#login p{
+	margin-bottom: 10px;
+	
+}
+
+#login p input{
+	width: 283px;
+	height: 35px;
+	outline: none;
+}
+
+input[type='button']{
+	width: 287px;
+	height: 46px;
+	margin-left: 40px;
+	background-color: #0092d8;
+	border: 0;
+	cursor: pointer;
+}
+
+.login-nav{
+	margin-left: 40px;
+}
+
+.login-nav a,.login-nav{
+	color: #c2a5b2;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+
+#denglu-show{
+	width: 200px;
+	margin: 0 auto;
+	color: red;
+}
+
+.register{
+	margin: 58px 35px;
+	
+}
+
+.register-list{
+	height: 2.375rem;
+}
+
+.register-list .haserror-icon{
+	float: left;
+    width: 51.5%;
+    height: 100%;
+    position: relative;
+    margin-left: 2.4%;
+}
+
+.register-list label{
+	height: 100%;
+	width: 10%;
+    float: left;
+    text-align: right;
+    line-height: 2.375rem;
+    font-size: 0.875rem;
+    color: #323232;
+}
+
+.register-list span{
+	/*position: absolute;
+    right: 0.5rem;
+    top: 0.48rem;
+    vertical-align: middle;
+    margin-right: 0.2rem;
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../images/error.png) no-repeat;
+    background-size: 100% 100%;
+    display: none;*/
+}
+
+.register-list .error-font{
+	float: left;
+	margin-left: 0.2rem;
+    font-size: 0.29rem;
+    height: 100%;
+    color: #fcab2b;
+    line-height: 2.375rem;
+    width: 18%;
+    
+}
+
+.register-list .error-font .error-font1{
+	margin-left: 10px;
+}
+
+#submit{
+	width: 200px;
+	height: 100%;
+	margin-left: 12%;
+	background-color: orangered;
+	border: 0;
+		
+}
+
+.code{
+	display: block;
+    height: 39px;
+    line-height: 40px;
+    text-align: center;
+    color: #3f3f3f;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    background-color: #969896;
+    right: 18px;
+    width: 80px;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 10px;
+    border-left: 1px solid #c8c8c8;
+    text-decoration: none;
+    margin-left: 12px;
+    cursor: pointer;
+	
+}

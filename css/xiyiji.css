@@ -1,0 +1,308 @@
+body{
+	background-color: #f4f4f4;
+}
+
+#xiyiji-header{
+	width: 1215px;
+	margin: 0 auto;
+	position: relative;
+
+	/*background-color: red;*/
+}
+
+.xiyiji{
+	height: 40px;
+	border: 1px solid #e0e0e0;
+	background-color: white;
+	line-height: 40px;
+	padding-left:30px ;
+}
+
+.xiyiji a,.xiyiji{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	
+}
+
+.xiyiji a:hover{
+	color: #19cafd;
+}
+
+.xiyiji1{
+	height: 40px;
+	border: 1px solid #e0e0e0;
+	background-color: white;
+	line-height: 40px;
+	padding-left:30px ;
+}
+
+.xiyiji1 a,.xiyiji1{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	
+}
+
+.xiyiji1 a{
+	margin-left: 60px;
+}
+
+.xiyiji1 a:hover{
+	color: #cb2d01;
+}
+
+
+#xiyiji-neiron{
+	width: 1215px;
+	/*background-color: white;*/
+	margin: 0 auto;
+	height: 3025px;
+	
+}
+
+.xiyiji2{
+	width: 1300px;
+}
+
+.xiyiji2 li{
+	position: relative;
+	width: 238px;
+	height: 468px;
+	background-color: #FFFFFF;
+	border: 1px solid #eee;
+	list-style-type: none;
+	float: left;
+	margin:0 21px 16px 0;
+	padding: 0 24px 21px;
+	
+}
+
+.tiao{
+	margin-top:12px;
+}
+.tiao a{
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+	
+}
+
+.tiao a:hover{
+	color: #00a0e0;
+}
+
+.wen{
+	margin-top:8px;
+	color: #999;
+	font-size: 12px;
+	height: 18px;
+	overflow: hidden;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gouwu{
+	margin-top:14px ;
+}
+
+
+.gouwu a{
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+}
+
+
+
+#dianji{
+	width: 1215px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+
+.dianji{
+	
+	width: 300px;
+	margin: 0 auto;
+	padding-left: 93px;
+	
+}
+
+.dianji a{
+	border: 1px solid #e0e0e0;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	height: 50px;
+	margin-right:-5px ;
+}
+
+.dianji a:hover{
+	
+}
+
+
+#jiage{
+	width: 125px;
+	height: 100px;
+	position: absolute;
+	top: 168px;
+	left: 70px;
+	background-color: white;
+	z-index: 30;
+	display: none;
+}
+
+#jiage p{
+	margin-top: 20px;
+	margin-left: 14px;
+}
+
+
+#jiage p a{
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#jiage p a:hover{
+	color: #ff6600;
+}
+
+
+
+
+#addr{
+	width: 440px;
+	position: absolute;
+	top: 210px;
+	left:185px;
+	background-color: white;
+	z-index: 30;
+	display: none;
+	
+}
+
+
+.addr-header{
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+
+.addr-header a img{
+	vertical-align: middle;
+}
+
+
+.addr-header a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+
+.addr-neiron{
+	width: 440px;
+	
+	height: 400px;
+	background-color: white;
+}
+
+.addr-neiron ul{
+	margin-left: 40px;
+}
+
+
+.addr-neiron ul li{
+	list-style-type: none;
+	float: left;
+	margin-right:84px ;
+	margin-bottom: 15px;
+}
+
+.addr-neiron ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+
+
+.addr-neiron ul li a:hover{
+	background-color: #0093d5;
+}
+
+
+.addr-neiron1{
+	position: absolute;
+	width: 440px;
+	display: none;
+	height: 400px;
+	top: 116px;
+	left: 0px;
+	z-index: 10;
+	background-color: white;
+	
+}
+
+.addr-neiron1 ul{
+	margin-left: 40px;
+}
+
+
+.addr-neiron1 ul li{
+	list-style-type: none;
+	float: left;
+	margin-right:84px ;
+	margin-bottom: 15px;
+}
+
+.addr-neiron1 ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+
+
+.addr-neiron1 ul li a:hover{
+	background-color: #0093d5;
+}
+
+
+.addr-neiron2{
+	display: none;
+	background-color: white;
+	position: absolute;
+	width: 440px;
+	top: 116px;
+	left: 0px;
+	z-index: 10;
+	height: 400px;
+}
+
+.addr-neiron2 ul{
+	margin-left: 40px;
+}
+
+
+.addr-neiron2 ul li{
+	list-style-type: none;
+	float: left;
+	margin-right:84px ;
+	margin-bottom: 15px;
+}
+
+.addr-neiron2 ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+
+
+.addr-neiron2 ul li a:hover{
+	background-color: #0093d5;
+}
+

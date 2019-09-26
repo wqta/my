@@ -1,0 +1,281 @@
+#car-header{
+	height: 81px;
+	width:100%;
+	background-color: white;
+}
+
+.car-header{
+	width: 1215px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+.carHeader{
+	line-height: 80px;
+	font-weight: normal;
+	font-size: 32px;
+}
+
+
+#car-headName{
+	width: 100%;
+	
+	
+}
+
+.car-headeName{
+	background-color: #fafafa;
+	width: 1215px;
+	height: 40px;
+	border:1px solid white ;
+	margin: 0 auto;
+}
+.car-headeName ul{
+	height: 100%;
+}
+
+.car-headeName ul li{
+	float: left;
+	list-style-type: none;
+	height: 100%;
+	line-height: 40px;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+
+
+.car-checkbox{
+	width: 114px;
+	margin-left:10px ;
+	color: #333;
+}
+
+.car-product{
+	width: 315px;
+	color: #aaa;
+}
+
+.car-sku{
+	width: 160px;
+	color: #aaa;
+}
+
+
+.car-price{
+	width: 160px;
+	color: #aaa;
+	
+}
+
+.car-num{
+	width: 160px;
+	color: #aaa;
+}
+
+.car-all{
+	width: 160px;
+	color: #aaa;
+}
+
+.car-operation{
+	width: 99px;
+	color: #aaa;
+}
+
+.car-items{
+	width: 1215px;
+	margin: 0 auto;
+	
+	margin-top: 20px;
+	/*border: 1px solid #aaa;*/
+	padding-top: 5px;
+}
+
+.car-item{
+	padding:0 10px;
+	width: 1195px;
+	height: 121px;
+	background-color: white;
+	border: 1px solid #aaa;
+	margin-top: 10px;
+}
+
+.car-checkbox1{
+	width: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
+
+.car-img{
+	width: 90px;
+	padding: 20px 0;
+	margin-left: 20px;
+}
+
+.car-img img{
+	width: 78px;
+	height: 78px;
+	border: 1px solid #eee;
+}
+
+
+.car-product1{
+	width: 290px;
+	padding: 20px 0;
+}
+
+.car-product1 a{
+	text-decoration: none;
+    color: #333;
+    
+}
+
+
+.car-sku1{
+	width: 160px;
+	padding: 20px 0;
+}
+
+
+.car-price1{
+	width: 160px;
+	padding: 20px 0;
+	font-weight: bold;
+	
+}
+
+.car-num1{
+	width: 160px;
+	padding: 20px 0;
+}
+
+.car-num11{
+	width: 150px;
+}
+
+.minus{
+	
+    padding: 5px 7px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+
+.plus{
+	/*width: 10px;
+    height: 10px;*/
+     padding: 5px 7px;
+     background-color: #fff;
+      cursor: pointer;
+}
+
+.car-input{
+	height: 24px;
+    text-align: center;
+    width: 22px;
+}
+
+.car-num11 .minus .inner{
+	width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 7px;
+    
+    background: url(//img.mdcdn.cn/pc/img/common/atom_sprite.png?t=20160701) no-repeat;
+	background-position: -200px -100px;
+}
+
+.car-num11 .plus .inner{
+	width: 10px;
+    height: 10px;
+    top: 7px;
+    left: 7px;
+    background: url(//img.mdcdn.cn/pc/img/common/atom_sprite.png?t=20160701) no-repeat;
+    background-position: -180px -100px;
+}
+
+.car-num11 span{
+	display: inline-block;
+}
+
+.car-all1{
+	width: 160px;
+	color: #FF6600;
+	padding: 20px 0;
+	font-weight: bold;
+}
+
+.car-operation1{
+	width: 79px;
+	padding: 20px 0;
+	
+}
+
+.car-checkbox1,.car-img,.car-product1,.car-sku1,.car-price1,.car-num1,.car-all1,.car-operation1{
+	float: left;
+	overflow: hidden;
+	font-size: 12px;
+   
+}
+
+#car-pay{
+	
+	bottom: 0;
+	left: ;
+	width: 1215px;
+	margin: 30px auto 30px;
+	height: 60px;
+	background-color: white;
+	position: relative;
+}
+
+.car-pay{
+	padding: 25px 0 20px 20px;
+}
+
+.car-pay div{
+	float: left;
+	margin-right: 40px; 
+	font-size: 12px;
+}
+
+#car-payRight{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 550px;
+	
+	
+}
+
+.carpay,.carpay-price,.carpay-Num{
+	width: 150px;
+	height: 50px;
+	float: left;
+	font-size: 12px;
+	margin-left: 30px;
+	
+}
+
+.carpay-price,.carpay-Num{
+	padding-top:10px ;
+}
+
+
+.carpay{
+	height: 60px;
+	width: 158px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #f60;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 0;
+    
+}
